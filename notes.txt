@@ -1,0 +1,13 @@
+Server side settings
+-------------------
+-->to create package.json --> 'npm init -y' --> edit that file and change main to 'server.js'
+--> install some dependencies like express, bcryptjs, config, mongoose, nodemon, concurrently( npm i -D nodemon --> for dev dependencies)
+
+
+nodemon
+-------
+--> normally if we make any changes to html or any code.. we have to restart our server... if we use Nodemon.. it will refersh automatically
+
+concurrently
+-------------
+--> we have to run node server and react simultaneously for that we need concurrently
